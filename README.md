@@ -64,6 +64,22 @@ git clone https://github.com/MahkameSalimi/ISPRS-Tutorial.git
 cd ISPRS-Tutorial
 ```
 
+For a local environment, use [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main) or [Miniforge](https://github.com/conda-forge/miniforge) with the `env.yml` file at the repository root. This installs Python 3.12, PyTorch, the geospatial stack, and the quantum packages needed for the tutorial.
+
+From the repository root:
+
+```bash
+conda env create -f env.yml
+conda activate qcfeo-isprs
+jupyter notebook
+```
+
+To verify the installation:
+
+```bash
+python -c "import torch, pennylane, qiskit, qiskit_aer, rasterio, geopandas; print('OK')"
+```
+
 ---
 
 ## IBM Quantum access
