@@ -74,7 +74,8 @@ conda activate qcfeo-isprs
 jupyter notebook
 ```
 
-To verify the installation:
+To verify the installation, run the following from the command line with the environment activated:
+
 
 ```bash
 python -c "import torch, pennylane, qiskit, qiskit_aer, rasterio, geopandas; print('OK')"
@@ -86,7 +87,7 @@ python -c "import torch, pennylane, qiskit, qiskit_aer, rasterio, geopandas; pri
 
 During the live tutorial, we will walk through submitting jobs to IBM Quantum hardware.
 
-Registered participants are expected to have received access through a PINQ² account on the [IBM Quantum Platform](https://quantum.cloud.ibm.com/).
+Registered participants are expected to have received access through a [PINQ²](https://www.pinq2.com/en/) account on the [IBM Quantum Platform](https://quantum.cloud.ibm.com/).
 
 Participants can also create a free IBM Quantum Platform account, which currently includes 10 minutes of execution time per month on IBM quantum processing units. See the [IBM Quantum Platform](https://quantum.cloud.ibm.com/) for current account details and registration information.
 
